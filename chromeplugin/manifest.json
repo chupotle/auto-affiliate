@@ -12,7 +12,7 @@
     "optional_permissions": [
         "<all_urls>"
     ],
-    "version": "0.01",
+    "version": "0.0.1",
     "author":"Chuuu",
     "options_ui": {
         "page": "options.html",
