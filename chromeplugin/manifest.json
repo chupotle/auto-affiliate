@@ -2,14 +2,20 @@
     "background": {
        "scripts": [ "request.js" ]
     },
-    "description": "Redirects any www.amazon.com page to smile.amazon.com",
-    "icons": { "16": "SA-16x16.png",
-               "48": "SA-48x48.png",
-               "128": "SA-128x128.png" },
+    "description": "Automatically redirect to your affiliate links",
+    "icons": { "16": "AA-16x16.png",
+               "48": "AA-48x48.png",
+               "128": "AA-128x128.png" },
     "manifest_version": 2,
-    "name": "Smile Always",
-    "permissions": [ "webRequest", "webRequestBlocking", "http://www.amazon.com/*", "https://www.amazon.com/*", "http://www.amazon.de/*", "https://www.amazon.de/*", "http://www.amazon.co.uk/*", "https://www.amazon.co.uk/*" ],
-    "version": "0.94",
-    "homepage_url": "http://www.smilealways.io",
-    "author":"Josh Haimson and Dan Elitzer"
+    "name": "Always Affiliate",
+    "permissions": [ "webRequest", "webRequestBlocking", "storage"],
+    "optional_permissions": [
+        "<all_urls>"
+    ],
+    "version": "0.01",
+    "author":"Chuuu",
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    }
 }
