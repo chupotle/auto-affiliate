@@ -13,4 +13,4 @@ Installation
 1. Click 'Load unpacked extension'
 1. Select `chromeplugin` folder from this repository
 
-Happy shopping.
+Be sure to allow access to the individual sites you're adding affiliate links to
