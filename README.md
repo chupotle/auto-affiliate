@@ -3,6 +3,8 @@ Affiliate Link Redirector Chrome Plugin
 
 Chrome Extension to redirect to your affiliate links
 
+https://chrome.google.com/webstore/detail/always-affiliate/gpjldpkemaiilolbibdiehjngcinocko
+
 Installation
 ============
 
